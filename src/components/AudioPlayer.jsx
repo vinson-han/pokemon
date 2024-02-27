@@ -27,7 +27,7 @@ const usePlayer = () => {
 };
 
 const Player = () => {
-  const [playing, toggle] = usePlayer(); // Who ever wrote this ?????? UsePlayer does not take in parameter. Seems like inconsistency in they way the code is being wrote
+  const [playing, toggle] = usePlayer(themeSong);
 
   return (
     <div className="audio-player">
