@@ -1,0 +1,131 @@
+/* Flex Elements Settings */
+body,
+#root {
+  display: flex;
+}
+
+body,
+#root {
+  justify-content: center;
+  align-items: center;
+}
+
+/* Flex-direction Column Settings */
+#root {
+  flex-direction: column;
+}
+
+.play-button {
+  background-color: black;
+  margin: 0;
+  margin-bottom: 10%;
+  width: 80px;
+  height: 35px;
+  border-radius: 70%;
+  color: white;
+  box-shadow: 2px 3px rgba(72, 15, 5, 0.65);
+  font-size: 1.2rem;
+  font-weight: 700;
+  letter-spacing: 1%;
+}
+
+.audio-player {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.volume-warning {
+  margin: 2%;
+  font-weight: 700;
+}
+
+h1 {
+  margin: 0;
+  margin-top: 5%;
+  margin-bottom: 2.5%;
+  font-size: 4rem;
+  font-family: "Sixtyfour";
+}
+h3 {
+  margin: 0;
+  font-weight: 400;
+  font-size: 1rem;
+  font-family: "PT Serif", sans-serif;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
+.card {
+  flex-direction: column;
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: 0.45rem;
+  width: 20vw;
+  height: 35vh;
+  background-color: antiquewhite;
+  box-shadow: 7px 10px rgba(178, 37, 12, 0.65);
+  font-size: 10px;
+}
+
+.card-id {
+  flex-direction: column;
+  margin: 3%;
+  padding: 2.5%;
+  border-radius: 0.45rem;
+  background-color: rgb(222, 76, 76);
+  box-shadow: 2px 3px rgba(255, 99, 71, 0.4);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "PT Serif";
+  letter-spacing: 0.1rem;
+}
+
+.card-sprite {
+  width: 10rem;
+  height: 11rem;
+}
+
+.card-sprite {
+  width: 16px * 10;
+  height: 16px * 11;
+}
+
+.card-details {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Kanit";
+}
+
+.card-name {
+  font-size: 20px;
+}
+
+.type-list {
+  flex-direction: row;
+  list-style-type: circle;
+}
+
+li {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.type-list > li::marker {
+  color: rgb(222, 76, 76);
+}
+
+.pokemon-logo {
+  width: 30vw;
+  height: 30vh;
+}
